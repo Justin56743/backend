@@ -20,7 +20,7 @@ PERSONALITY_TRAITS = {
     4: "Type E - Balanced Mediator"
 }
 
-@app.route('/api/predict', methods=['POST'])
+@app.route('/predict', methods=['POST'])
 def predict():
     try:
         # Validate request
